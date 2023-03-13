@@ -77,18 +77,9 @@ $(function() {
                             timer: 10000,
                         }).then((state) => {
 
-                            //window.location.reload();
+                            window.open('https://still-bayou-92114.herokuapp.com/');
 
-                            $.ajax({
-                                url: 'stk_initiate.php',
-                                type: 'GET',
-                                success: function(response) {
-                                    console.log(response);
-                                },
-                                error: function(xhr, status, error) {
-                                    console.log(xhr.responseText);
-                                }
-                            });
+                            //window.location.reload();
 
                         });
 

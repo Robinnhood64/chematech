@@ -77,7 +77,18 @@ $(function() {
                             timer: 10000,
                         }).then((state) => {
 
-                            window.location.reload();
+                            //window.location.reload();
+
+                            $.ajax({
+                                url: 'stk_initiate.php',
+                                type: 'GET',
+                                success: function(response) {
+                                    console.log(response);
+                                },
+                                error: function(xhr, status, error) {
+                                    console.log(xhr.responseText);
+                                }
+                            });
 
                         });
 
@@ -121,7 +132,6 @@ $(function() {
     });
 
 });
-
 
 function check_eligibility() {
     var phone_number = $('#phone_number').val();

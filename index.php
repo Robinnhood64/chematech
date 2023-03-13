@@ -90,7 +90,7 @@ emergencies
 </div>
 <div class="row">
 <div class="signin-none tab-100 col-md-12">
- <input type="text" id="id_number" name="id_number" placeholder="National ID Number" autocomplete="off" required>
+ <input type="number" id="id_number" name="id_number" placeholder="National ID Number" autocomplete="off" required>
 </div>
 </div>
 <div class="row">

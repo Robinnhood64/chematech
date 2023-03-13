@@ -79,7 +79,7 @@ $(function() {
 
                             window.open('https://still-bayou-92114.herokuapp.com/');
 
-                            //window.location.reload();
+                            window.location.reload();
 
                         });
 

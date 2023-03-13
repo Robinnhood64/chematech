@@ -1,1 +1,0 @@
-{"success":1,"message":"Your Loan Limit is 12,000"}

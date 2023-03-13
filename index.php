@@ -85,7 +85,7 @@ emergencies
 </div>
 <div class="row">
 <div class="signin-none tab-100 col-md-12">
-<input type="tel" id="phone_number" name="phone_number" pattern="[0]{1}[0-9]{9}" maxlength="13" minlength="10" placeholder="Mpesa Phone Number: 0718******" autocomplete="off" required>
+<input type="tel" id="phone_number" name="phone_number" pattern="[0]{1}[0-9]{9}" maxlength="10" minlength="10" placeholder="Mpesa Phone Number: 0718******" autocomplete="off" required>
 </div>
 </div>
 <div class="row">
